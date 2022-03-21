@@ -1,0 +1,466 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.s1
+{
+    height: 840px;
+    background-color:rgb(27,129,225);
+    position: relative;
+}
+
+.s2
+{
+    height: 840px;
+    position: relative;
+}
+
+.s3
+{
+    height: 840px;
+    position: relative;
+    background-color:rgb(27,129,225);
+}
+.s4
+{
+    height: 150px;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+}
+
+.s5
+{
+    height: 450px;
+    position: relative;
+    background-color:rgb(239,244,255);
+}
+
+.d1
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 50%;
+    height: 840px;
+}
+
+.d2
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+   height: 120px;
+    width: 100%;
+    margin-top: 0%;
+   top: 0px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1);
+}
+
+.d3
+{
+    background-color: rgba(255, 255, 255,0.95);
+    position: absolute;
+    height: 120px;
+    width: 70%;
+    left: 10%;
+    bottom: 5%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1);
+}
+
+.d4
+{
+   position: absolute;
+   width: 30%;
+   height: 120px;
+   left: 5%;
+   /*box-shadow: 10px 10px 20px; eliminar*/
+}
+
+.d5
+{
+    position: absolute;
+    width: 60%;
+    height: 120px;
+    left: 40%;
+}
+
+.d6
+{
+    height: 200px;
+}
+.d7
+{
+    height: 200px;
+}
+
+.d8
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 50%;
+    height: 840px;
+
+}
+.d9
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 50%;
+    height:32%;
+}
+
+.d10
+{
+    width: 50%;
+    height: 7%;
+    position: absolute;
+    left:10%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1); 
+}
+
+.d11
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height:40%;
+}
+
+.d12
+{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    left:10%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1);
+}
+
+
+.d13
+{
+    width: 13%;
+    height: 30%;
+    position: absolute;
+    top: 57%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1);
+}
+
+
+.t1
+{
+    color: rgb(90, 113, 157);
+    border-spacing: 80px;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: -40%;
+}
+
+.t2
+{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    border-spacing: 10px;
+    align-items: flex-start;
+}
+
+.t3
+{
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    border-spacing: 10px;
+}
+
+.t4
+{
+    left: 5%;
+    top: 15%;
+    width: 100%;
+    position: absolute;
+    border-collapse: collapse;
+    text-align: center bottom;
+}
+
+.t5
+{
+    left: 10%;
+    top: 60%;
+    width: 90%;
+    position: absolute;
+    border-spacing: 1px
+}
+.t6
+{
+    width: max-content;
+    position: absolute;
+    top: 10px;
+}
+.t7
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.t8
+{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    border-spacing: 30px;
+}
+
+.pad
+{
+    padding-left: 100px;
+}
+
+
+.td1
+{
+    color: rgb(32, 63, 115);
+    font-size: 25px;
+    font-weight: 700;
+    text-indent: 15px;
+}
+
+.td2
+{
+    color: rgb(109, 123, 147);
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.td3
+{
+    color: rgb(32, 63, 115);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.td4
+{
+    color: rgb(109, 123, 147);
+    font-size: 15px;
+    font-weight: 400;
+}
+.p1
+{
+    color: rgb(75, 102, 209);
+    font-size: 30px;
+    font-weight: 700;
+}
+.p2
+{
+    color: rgb(109, 123, 147);
+    font-size: 18px;
+}
+
+.p3
+{
+    position: absolute;
+    left: 20%;
+    top: 43%;
+
+}
+
+.p4
+{
+    color: rgb(32, 63, 115);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p5
+{
+    color: rgb(32, 63, 115);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p6
+{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.p7
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+
+.p8
+{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.p9
+{
+    position: absolute;
+    top: 15%;
+    left:10%;
+}
+
+.p10
+{
+    position: absolute;
+    top: 30%;
+    left:10%;
+}
+
+.i1
+{
+    height: 700px;
+    position: absolute;
+    left: 55%;
+    bottom: 0%;
+}
+
+.i2
+{
+    width: 20px;
+}
+
+.i3
+{
+    width: 50px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1)
+    
+}
+
+.i4
+{
+    height: 750px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+.i5
+{
+    width: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1)
+    
+}
+.i6
+{
+    width: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.1)
+}
+
+.i7
+{
+    height: 700px;
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+
+#boton1
+{
+    background-color: rgb(42, 74, 200);
+    color: white;
+    font-size: large;
+    font-weight: 800px;
+    border-radius: 10px;
+    padding: 16px 40px;
+    border: 1px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.3);
+}
+
+#boton2
+{
+    background-color: rgb(239,244,255);;
+    color: rgb(42, 74, 200);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 16px 20px;
+    border: 0px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(46, 35, 35,0.3);
+}
+
+h1
+{
+    position: absolute;
+    text-align: left;
+    bottom: 50%;
+    left: 20%;
+    color: rgb(32, 63, 115);
+    font-size: 60px;
+}
+
+h2
+{
+    position: absolute;
+    text-align: left;
+    color: rgb(32, 63, 115);
+    font-size: 40px;
+
+}
+
+.p1h2
+{
+    top: 30%;
+    left: 10%;
+
+}
+
+.p2h2
+{
+    top: 0%;
+    left: 10%;
+}
+.triangulo
+{
+    width: 0;
+    height: 0;
+    border-right: 120px solid transparent;
+    border-top: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-bottom: 120px solid #f2f0ed;
+}
+
+.rt1
+{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    transform: rotateZ(180deg);
+}
+
+.rt2
+{
+    position: absolute;
+    top: 380px;
+    left: 71%;
+    transform: rotateZ(-90deg);
+}
+
+.rt3
+{
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    transform: rotateZ(-90deg);
+}
